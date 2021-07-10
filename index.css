@@ -18,7 +18,8 @@ color:#fff;}
 .wrapper{display:grid;
 grid-template-columns:2fr 1fr; 
 grid-gap:1em;
-grid-auto-rows: minmax(100px,auto)}
+grid-auto-rows: minmax(100px,auto);
+}
 .wrapper>div{background:#eee;
 padding:1em;}
 .wrapper>div:nth-child(odd){background:#ddd;
@@ -33,7 +34,8 @@ border:#333 solid 1px;}
 .nested>div:nth-child(odd){background:#eee;}
 .menubar ul li{
 	width:120px;
-	margin,padding:15px;
+	margin:15px;
+	padding:15px;
 
 }
 .menubar ul li a{text-decoration:none;
@@ -45,7 +47,7 @@ border-radius:3px;}
 .menubar ul li:hover .submenu1{display:block;
 position:absolute;
 background:green;
-margin top:15px;
+margin-top:15px;
 margin-left:-15px;
 }
 .menubar ul li:hover .submenu1 ul{display:block;
